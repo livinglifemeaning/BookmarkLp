@@ -1,0 +1,19 @@
+.footer{
+    padding: 3rem var(--p-mobile); 
+    background-color: var(--c-blue-dark); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+
+}
+
+@media (min-width: 750px) {
+    .footer{
+        padding: 3rem var(--p-desktop); 
+        flex-direction: row; 
+        justify-content: flex-start; 
+        width: 100%; 
+        gap: 5rem; 
+    }
+}

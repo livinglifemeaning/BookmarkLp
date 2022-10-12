@@ -1,0 +1,15 @@
+.bar{
+    display: flex; 
+    gap: 2rem; 
+    align-items: center;
+}
+
+.bar div{
+ cursor: pointer; 
+}
+
+@media (min-width: 750px) {
+   .bar{ 
+    margin-left: auto;
+   }
+}

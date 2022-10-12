@@ -1,0 +1,27 @@
+.heading{
+    padding: 3rem var(--p-mobile); 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+.logo{
+    position: relative; 
+    z-index: 5; 
+}
+.bg{
+    position: absolute; 
+    width: 100vw; 
+    height: 100vh; 
+    left: 0; 
+    top: 0; 
+    background-color: hsla(229, 31%, 21%, 0.9); 
+    z-index: 1; 
+}
+
+@media (min-width: 750px) {
+    .heading{
+        padding: 4rem var(--p-desktop) 8rem;
+    }
+}

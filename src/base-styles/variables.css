@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Rubik:wght@400;500&display=swap');
+:root{
+    /* Fonts */
+    --f-primary:'Rubik', sans-serif;  
+    /* Colors */
+    --c-blue-light: hsl(231, 69%, 60%); 
+    --c-red:hsl(0, 94%, 66%); 
+    --c-gray:hsl(229, 8%, 60%); 
+    --c-blue-dark: hsl(229, 31%, 21%); 
+    /* Text and Padding Sizes */
+    --p-mobile: 1.5rem; 
+    --p-desktop: 10rem; 
+    --t-h1-mobile: 2rem; 
+    --t-h2-mobile: 1.6rem; 
+    --t-h1-desktop: 3rem; 
+    --t-h2-desktop: 2.2rem; 
+    --t-body: 16px; 
+}
+
+

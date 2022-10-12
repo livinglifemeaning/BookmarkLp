@@ -1,0 +1,29 @@
+.navBox{
+    margin: 2rem 0; 
+}
+.nav{
+    text-transform: uppercase;
+    color: hsl(229, 8%, 90%); 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 2rem; 
+    letter-spacing: .1em;
+}
+
+.nav li{
+    cursor: pointer; 
+}
+
+.nav li:hover{
+    color: var(--c-red); 
+}
+
+@media (min-width: 750px) {
+    .navBox{
+        margin: 0; 
+    }
+    .nav{
+        flex-direction: row; 
+    }
+}

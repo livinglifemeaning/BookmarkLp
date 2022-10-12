@@ -1,0 +1,13 @@
+@import "./reset.css";
+@import "./variables.css"; 
+
+body{
+    font-family: var(--f-primary); 
+}
+main{
+    overflow-x:hidden; 
+}
+ul{
+    list-style-type: none; 
+    padding: 0; 
+}
